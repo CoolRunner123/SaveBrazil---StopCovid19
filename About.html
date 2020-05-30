@@ -22,8 +22,28 @@
         }
 
         li a:hover {
-        background-color:slategray;
+            background-color:slategray;
         }
+
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+        .column.side {
+            width: 25%;
+        }
+
+        .column.middle {
+            width: 50%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
 
     </style>
 </head>
@@ -31,16 +51,46 @@
 <body> 
 <ul class="navbar">
     <li> <a href="About.html" class="navbar">About</a></li>
-    <li> <a href="Help.html" class="navbar">What You Can Do to Help</a></li>
+    <li> <a href="Help.html" class="navbar">How to Help</a></li>
     <li> <a href="#datainsights" class="navbar">Data Insights</a></li>
     <li> <a href="SaveBrazil.html" class="navbar">Live Map</a></li>
 </ul>
+
+<h1> About Us </h1> 
+<div class="row">
+    <div class="column side">
+      <h2>Team Quarantine Coding Queens</h2>
+      <h4> Team Members: </h4>
+      <p>Nandita Kathiresan <br>
+         Manasi Soman <br>
+         Nithyasree Balaji <br>
+         Jessica Sidrak</p>
+    </div>
+    
+    <div class="column middle">
+      <h2>"whatever our mission statement is"</h2>
+      <p>Through this website, we seeked to analyze deforestation and particulate matter concentrations in Brazil and the connection
+           it has to increasing infection rates of Covid-19 throughout Brazil. Because of the deforestation of the Amazon rainforest
+            and differences in socie-economic status between individuals who live in cities and individuals who live in the Amazons,
+             Covid-19 is hitting the indeginous people living in the Amazon rainforest area much harder. We hope that this website 
+             would spread awareness about this issue and encourage people to help out in any way they can.  </p>
+      <p> Moving forward, we would like to improve out website by collecting more data regarding deforestation in the Amazons and
+           particulate matter concentrations. </p>
+    </div>
+    
+    <div class="column side">
+      <h2>Data Resources</h2>
+      <p> blahblahbdsalkfhkd blah</p>
+    </div>
+  </div>
+
 
 <div>
     <script id="infogram_0_a07c4c08-9533-43ad-8b65-fed242c6d3ca" title="Column Chart" src="https://e.infogram.com/js/dist/embed.js?exF" type="text/javascript"></script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/a07c4c08-9533-43ad-8b65-fed242c6d3ca" style="color:#989898!important;text-decoration:none!important;" target="_blank">Column Chart</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
 </div>
 
 <div class="infogram-embed" data-id="df011d1d-5a9f-498a-bbd8-1d696655e6d3" data-type="interactive" data-title="World Map"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/df011d1d-5a9f-498a-bbd8-1d696655e6d3" style="color:#989898!important;text-decoration:none!important;" target="_blank">World Map</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+
 
 
 </body>
