@@ -35,8 +35,8 @@
     border-color: #f1f1f1;
   }
   .carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */ 
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%); /* make all photos black and white */ 
     width: 100%; /* Set width to 100% */
     margin: auto;
   }
@@ -175,11 +175,13 @@
     </div>
   </div>
 </nav>
+<div>
 
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
+    
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -235,25 +237,30 @@
   <br>
   <div class="row">
     <div class="col-sm-4">
-      <p class="text-center"><strong>Info</strong></p><br>
+        <iframe src="https://www.desmos.com/calculator/cxmwjwqous?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
       <a href="#demo" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        
       </a>
       
     </div>
     <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      <p class="text-left"><strong>Interactive Future Cases Model: Click on the graph to view the stats</strong></p>
+      <p> Rate of Covid-19 Cases vs. Days following 27 February 2020</p>
+      
+       
       </a>
      
     </div>
     <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
+      <p class="text-center">Visual Representation of Real Time Covid-19 Rate (population dependent) in Sao Paulo (green) and the Amazonas (red) </p><br>
       <a href="#demo3" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        
       </a>
-      
+      <div>
+        <a href="https://plotly.com/~NanditaK123/8/?share_key=7kG5p4LZQQkiXY9PKD3bZs" target="_blank" title="Cases" style="display: block; text-align: center;"><img src="https://plotly.com/~NanditaK123/8.png?share_key=7kG5p4LZQQkiXY9PKD3bZs" alt="Cases" style="max-width: 100%;width: 900px;"  width="900" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+        <script data-plotly="NanditaK123:8" sharekey-plotly="7kG5p4LZQQkiXY9PKD3bZs" src="https://plotly.com/embed.js" async></script>
+    </div>
+    
     </div>
   </div>
 </div>
@@ -261,37 +268,34 @@
 <!-- Container (TOUR Section) -->
 <div id="tour" class="bg-1">
   <div class="container">
-    <h3 class="text-center">TOUR DATES</h3>
-    <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
-    <ul class="list-group">
-      <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
-      <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li> 
-      <li class="list-group-item">November <span class="badge">3</span></li> 
-    </ul>
+    <h3 class="text-center">HOW TO MAKE AN <strong>IMPACT</strong></h3>
+    <p class="text-center"> What are you waiting for?<br></p>
+    
     
     <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="paris.jpg" alt="Paris" width="400" height="300">
-          <p><strong>Paris</strong></p>
-          <p>Friday 27 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <img src="paris.jpg"  width="400" height="300">
+          <p><strong>Other Accredited Organizations</strong></p>
+          
+          <button class="btn" data-toggle="modal" data-target="#myModal">Yes, lets GO!</button>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="newyork.jpg" alt="New York" width="400" height="300">
-          <p><strong>New York</strong></p>
-          <p>Saturday 28 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <img src="Change.org_Logo_full.png"  width="400" height="300">
+          <p><strong>Change.org Sites</strong></p>
+          
+          <a href="https://www.change.org/" class="btn btn-info" role="button">Yes, let's GO!</a>
+          
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-          <p><strong>San Francisco</strong></p>
-          <p>Sunday 29 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <img src="sanfran.jpg" width="400" height="300">
+          <p><strong>Share this Site</strong></p>
+          
+          <button class="btn" data-toggle="modal" data-target="#myModal">Yes, lets GO!</button>
         </div>
       </div>
     </div>
@@ -335,15 +339,15 @@
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container">
-  <h3 class="text-center">Contact</h3>
-  <p class="text-center"><em>We love our fans!</em></p>
+  <h3 class="text-center">What YOU Can Do To Help</h3>
+  <p class="text-center"><em>Sign a Petition to stop deforestion (source)</em></p>
 
   <div class="row">
     <div class="col-md-4">
-      <p>Fan? Drop a note.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+      <p>Contact the Amazon Conservation</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Washington DC 20005</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: 202-234-2356</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: info@amazonconservation.org</p>
     </div>
     <div class="col-md-8">
       <div class="row">
@@ -364,25 +368,36 @@
     </div>
   </div>
   <br>
-  <h3 class="text-center">From The Blog</h3>  
+  <h3 class="text-center"> ABOUT US</h3>  
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
-    <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
-    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
+    <li class="active"><a data-toggle="tab" href="#home">Our Mission Statement</a></li>
+    <li><a data-toggle="tab" href="#menu1">Who We Are</a></li>
+    <li><a data-toggle="tab" href="#menu2">Sources</a></li>
   </ul>
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
-      <h2>Mike Ross, Manager</h2>
-      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+      
+      <h2>"When people are crying out for help, we rise to make a difference...even if its thousands of miles away"</h2>
+      <p>Through this website, we seeked to analyze deforestation and particulate matter concentrations in Brazil and the connection
+           it has to increasing infection rates of Covid-19 throughout Brazil. Because of the deforestation of the Amazon rainforest
+            and differences in socie-economic status between individuals who live in cities and individuals who live in the Amazons,
+             Covid-19 is hitting the indeginous people living in the Amazon rainforest area much harder. We hope that this website 
+             would spread awareness about this issue and encourage people to help out in any way they can.  </p>
+      <p> Moving forward, we would like to improve out website by collecting more data regarding deforestation in the Amazons and
+           particulate matter concentrations. </p>
     </div>
     <div id="menu1" class="tab-pane fade">
-      <h2>Chandler Bing, Guitarist</h2>
-      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+        <h2>Team Quarantine Coding Queens </h2>
+        <h4> Team Members: </h4>
+        <p>Nandita Kathiresan </p>
+        <p>  Manasi Soman </p>
+        <p>  Nithyasree Balaji </p>
+         <p>Jessica Sidrak</p>
     </div>
     <div id="menu2" class="tab-pane fade">
-      <h2>Peter Griffin, Bass player</h2>
-      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+      <h2>Sources and Data Limiations</h2>
+      <p> Insert Sources (don't forget images)</p>
     </div>
   </div>
 </div>
